@@ -1,6 +1,6 @@
 import { error } from '../'
 export const random = (min, max) => { // min and max included 
-    if (NaN(min) || NaN(max)) {
+    if (isNaN(min) || isNaN(max)) {
         error(`"randomNumber()" expects two parameters: min(Number) and max(Number) but got ${typeof min} and ${typeof max}`)
         return undefined
     }
