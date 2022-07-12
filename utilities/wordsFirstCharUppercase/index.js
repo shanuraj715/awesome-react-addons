@@ -1,5 +1,5 @@
 import { error } from '../'
-export const wordsFirstCharUppercase = (string) => {
+const wordsFirstCharUppercase = (string) => {
     if (typeof string === 'string' || string instanceof String) {
         let words = string.split(" ");
         for (let i = 0; i < words.length; i++)
@@ -9,3 +9,4 @@ export const wordsFirstCharUppercase = (string) => {
     error(`"wordsFirstCharUppercase()" expected a string parameter but get "${typeof string}".`)
     return string
 }
+export default wordsFirstCharUppercase

@@ -1,4 +1,4 @@
-export function isNumeric(string) {
+function isNumeric(string) {
     if( typeof string === 'number' ) {
         return true
     }
@@ -7,3 +7,5 @@ export function isNumeric(string) {
     }
     return false
 }
+
+export default isNumeric

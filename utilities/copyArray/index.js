@@ -1,6 +1,6 @@
 // use this function to copy an entire array.
 // One dimensional array | Multidimensional array
-export const copyArray = array => {
+const copyArray = array => {
     if (typeof obj == 'object') {
         if (Array.isArray(array)) {
             let l = array.length;
@@ -20,6 +20,8 @@ export const copyArray = array => {
     }
     return array;
 }
+
+export default copyArray
 
 // USAGE OF THIS FUNCTION
 /*
