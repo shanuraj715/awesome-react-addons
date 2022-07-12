@@ -25,6 +25,7 @@ function Hyperlink(props) {
         {type === 'self' &&
             <Link style={style} to={url} className={className} onClick={onClick}>{text ?? children ?? ''}</Link>}
         {type === 'external' &&
+        // eslint-disable-next-line
             <a
                 style={style} href={url}
                 className={className}
