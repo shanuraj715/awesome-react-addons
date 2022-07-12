@@ -8,7 +8,8 @@ import { isNumeric } from './isNumeric/isNumeric'
 import { lowercase } from './lowercase/lowercase'
 import { removeSpace } from './removeSpace/removeSpace'
 import { uppercase } from './uppercase/uppercase'
+import randomString from './randomString/'
 
-export { copyArray, randomNumber, wordsFirstCharUppercase }
+export { copyArray, randomNumber, randomString, wordsFirstCharUppercase }
 export { log, warn, error }
 export { isAlphabetic, isAlphanumeric, isNumeric, lowercase, removeSpace, uppercase }
