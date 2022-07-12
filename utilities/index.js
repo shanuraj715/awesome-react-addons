@@ -10,8 +10,12 @@ import removeSpace from './removeSpace'
 import uppercase from './uppercase'
 import randomString from './randomString'
 import firstCharUppercase from './firstCharUppercase'
+import { rgbToHex, hexToRgb, hexToRgba, binaryToDecimal, binaryToHexadecimal, decimalToBinary, decimalToHexadecimal, hexadecimalToBinary, hexadecimalToDecimal } from './conversions'
 
 export { copyArray, randomNumber, randomString, wordsFirstCharUppercase }
 export { log, warn, error }
 // String functions
 export { isAlphabetic, isAlphanumeric, isNumeric, lowercase, removeSpace, uppercase, firstCharUppercase }
+
+export { rgbToHex, hexToRgb, hexToRgba }
+export { binaryToDecimal, binaryToHexadecimal, decimalToBinary, decimalToHexadecimal, hexadecimalToBinary, hexadecimalToDecimal }
