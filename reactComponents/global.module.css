@@ -1,0 +1,9 @@
+.global a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.global a:hover {
+    color: #c0392b;
+    cursor: pointer;
+}

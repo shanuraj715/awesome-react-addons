@@ -1,0 +1,12 @@
+.footer * {
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.footer a:disabled {
+    color: #bdc3c7;
+    display: none;
+}
